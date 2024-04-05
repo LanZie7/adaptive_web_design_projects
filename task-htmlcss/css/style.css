@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "Playfair-Display-800";
+    font-weight: 800;
+    src: url("../fonts/Playfair-800.woff2") format("woff2"),
+}
+
+@font-face {
+    font-family: "Montserrat-500";
+    font-weight: 500;
+    src: url("../fonts/Montserrat-500.woff2") format("woff2"),
+}
+
+@font-face {
+    font-family: "Montserrat-400";
+    font-weight: 400;
+    src: url("../fonts/Montserrat-400.woff2") format("woff2"),
+}
+
+@font-face {
+    font-family: "Montserrat-600";
+    font-weight: 600;
+    src: url("../fonts/Montserrat-600.woff2") format("woff2"),
+}
+
+
+body {
+    max-width: 1440px;
+}
+
+header {
+    height: 120px;
+    background: #D2691E;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 75px 30px 75px;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 9px;
+}
+
+.header-logo-description-text {
+    padding-top: 9px;
+}
+
+.header-menu {
+    
+}
+
+.header-menu-container {
+    width: 740px;
+    padding: 10px 45px 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+
+
+.header-menu-name {
+    font-family: "Montserrat-400";
+    color: #FFFFFF;
+}
+
+.header-contact {
+    /* width: 275px; */
+    right: 0;
+    font-family: "Montserrat-600";
+    color: #FFFFFF;
+}
+
+.promo {
+    background: url("../img/promo-pic.png");
+}
+
+.events-container {
+    background: #F0EAD6;
+    padding: 0 105px;
+}
+
+.events-text {
+    font-family: "Playfair-Display-800";
+    margin-top: 0;
+    padding-top: 60px;
+}
+
+.events-program-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.events-program-card {
+    position: relative;
+}
+
+.events-img {
+    position: relative;
+    width: 390px;
+    height: 415px;
+}
+
+.events-program-card-location {
+    width: 110px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 25px 0 0 20px;
+    background: #D2691E;
+}
+
+.events-program-card-location_pointer {
+    width: 7.5px;
+    height: 10px;
+}
+
+.events-program-card-location_name {
+    font-family: "Montserrat-500";
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-left: 5px;
+}
+
+.events-program-card-content {
+
+}
+
+.events-program-card-content__days {
+Р
+}
+
+.events-program-card-content__name {
+
+}
+
+.events-program-card-content__complexity {
+    
+}
